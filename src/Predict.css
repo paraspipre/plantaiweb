@@ -1,0 +1,113 @@
+.main-wrapper{
+    display: flex;
+    padding:2rem;
+    gap:5rem;
+    margin-top: 3rem;
+}
+
+.main-input-div{
+    width: 50%;
+    height:20rem;
+}
+
+.main-input-div input{
+    display: none;
+}
+
+.main-info-div{
+    width: 30%;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.main-info-div p{
+    font-weight: 600;
+}
+
+.input-image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border:2px dashed gray;
+    border-radius: 10px;
+}
+
+.input-image-div div{
+    text-align: center;
+}
+
+.input-image-div i{
+    font-size: 2rem;
+}
+
+.main-wrapper button{
+    background-color: #17f243;
+    color:white;
+    margin-top: 2rem;
+    width:100%;
+    border-radius: 10px;
+    padding:15px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.results-div{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.below-wrapper{
+    display: flex;
+    padding:2rem;
+    margin-top: 10rem;
+    gap:4rem;
+}
+
+.below-wrapper-text{
+    width:50%;
+}
+
+.below-wrapper-img{
+    width:30%;
+    margin: auto;
+}
+
+.below-wrapper-img img{
+    border-radius: 30px;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.image-grid{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+    gap: 30px;
+}
+
+.imagebtn{
+    width: 200px;
+    height: 200px;
+}
+
+.imagebtn:hover{
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.selectCat{
+    border: 10px;
+    background-color: #17f243;
+    border-color: #17f243;
+}
